@@ -1,0 +1,37 @@
+~~~
+~~ #%L
+~~ This file is part of FAHView.
+~~ %%
+~~ Copyright (C) 2011 - 2014 Michael Thomas <mikepthomas@outlook.com>
+~~ %%
+~~ FAHView is free software: you can redistribute it and/or modify
+~~ it under the terms of the GNU General Public License as published by
+~~ the Free Software Foundation, either version 3 of the License, or
+~~ (at your option) any later version.
+~~ %
+~~ FAHView is distributed in the hope that it will be useful,
+~~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+~~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+~~ GNU General Public License for more details.
+~~ %
+~~ You should have received a copy of the GNU General Public License
+~~ along with FAHView.  If not, see <http://www.gnu.org/licenses/>.
+~~ #L%
+~~~
+                         ----------------------------
+                         First Increment (Conclusion)
+                         ----------------------------
+                                Michael Thomas
+                         ----------------------------
+                                  04/04/2012
+
+Summary
+
+  The user interface has been implemented for the current stable Folding@home
+  client and most of the data can be extracted from the queue.dat binary file.
+  The FAHView program will not support some of the more obscure and deprecated
+  data.
+
+  The next chapter will look at the requirements collection, design,
+  implementation and testing of the integration of the 3D molecule viewer to
+  display an interactive representation of the current work unit.

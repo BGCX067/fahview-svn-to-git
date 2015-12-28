@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+    <action>
+        <actionName>CUSTOM-Generate Site</actionName>
+        <displayName>Generate Site</displayName>
+        <goals>
+            <goal>clean</goal>
+            <goal>install</goal>
+            <goal>site</goal>
+        </goals>
+        <properties>
+            <Env.MAVEN_OPTS>-Xmx512m -XX:MaxPermSize=256m</Env.MAVEN_OPTS>
+        </properties>
+        <activatedProfiles>
+            <activatedProfile>release-profile</activatedProfile>
+        </activatedProfiles>
+    </action>
+    <action>
+        <actionName>CUSTOM-Create PDF</actionName>
+        <displayName>Create PDF</displayName>
+        <recursive>false</recursive>
+        <goals>
+            <goal>pdf:pdf</goal>
+        </goals>
+        <activatedProfiles>
+            <activatedProfile>release-profile</activatedProfile>
+        </activatedProfiles>
+    </action>
+    <action>
+        <actionName>CUSTOM-Update File Licenses</actionName>
+        <displayName>Update File Licenses</displayName>
+        <goals>
+            <goal>license:update-file-header</goal>
+        </goals>
+        <activatedProfiles>
+            <activatedProfile>release-profile</activatedProfile>
+        </activatedProfiles>
+    </action>
+    <action>
+        <actionName>CUSTOM-Fix JavaDoc</actionName>
+        <displayName>Fix JavaDoc</displayName>
+        <goals>
+            <goal>javadoc:fix</goal>
+            <goal>javadoc:test-fix</goal>
+        </goals>
+        <properties>
+            <force>true</force>
+        </properties>
+        <activatedProfiles>
+            <activatedProfile>release-profile</activatedProfile>
+        </activatedProfiles>
+    </action>
+</actions>

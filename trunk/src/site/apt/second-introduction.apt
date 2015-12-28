@@ -1,0 +1,37 @@
+~~~
+~~ #%L
+~~ This file is part of FAHView.
+~~ %%
+~~ Copyright (C) 2011 - 2014 Michael Thomas <mikepthomas@outlook.com>
+~~ %%
+~~ FAHView is free software: you can redistribute it and/or modify
+~~ it under the terms of the GNU General Public License as published by
+~~ the Free Software Foundation, either version 3 of the License, or
+~~ (at your option) any later version.
+~~ %
+~~ FAHView is distributed in the hope that it will be useful,
+~~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+~~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+~~ GNU General Public License for more details.
+~~ %
+~~ You should have received a copy of the GNU General Public License
+~~ along with FAHView.  If not, see <http://www.gnu.org/licenses/>.
+~~ #L%
+~~~
+                               ----------------
+                               Second Increment
+                               ----------------
+                                Michael Thomas
+                               ----------------
+                                  04/04/2012
+
+About
+
+  For this increment we will be looking at the inclusion of a 3D viewer
+  component to display the protein in the current work unit; it will enable
+  users to view a real-time 3D representation of the protein that the client is
+  currently working on, it will be added. Rather than re-inventing the wheel,
+  the open-source Java viewer for chemical structures in 3D, "Jmol" (Gezelter,
+  2000) will be embedded into the project. Jmol has a sub-project called "Jmol
+  Viewer" which <should> be able to render the protein for me, as it is a java API
+  designed to be embedded within other applications.

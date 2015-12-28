@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  #%L
+  This file is part of FAHView.
+  %%
+  Copyright (C) 2011 - 2014 Michael Thomas <mikepthomas@outlook.com>
+  %%
+  FAHView is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+  %
+  FAHView is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+  %
+  You should have received a copy of the GNU General Public License
+  along with FAHView.  If not, see <http://www.gnu.org/licenses/>.
+  #L%
+  -->
+<document outputName="${project.name}"
+          xmlns="http://maven.apache.org/DOCUMENT/1.0.1"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/DOCUMENT/1.0.1 http://maven.apache.org/xsd/document-1.0.1.xsd">
+    <meta>
+        <title>${project.name}</title>
+        <author>${project.developers[0].name}</author>
+        <creator>${project.developers[0].name}</creator>
+
+        <keyWords>
+            <keyWord>Computing</keyWord>
+            <keyWord>Distributed</keyWord>
+            <keyWord>Distributed Computing</keyWord>
+            <keyWord>Folding</keyWord>
+            <keyWord>FoldingAtHome</keyWord>
+            <keyWord>Folding@home</keyWord>
+            <keyWord>FAH</keyWord>
+            <keyWord>Java</keyWord>
+            <keyWord>Viewer</keyWord>
+            <keyWord>Stanford University</keyWord>
+        </keyWords>
+        <subject>Computing</subject>
+        
+        <language>en-GB</language>
+        <pageSize>A4</pageSize>
+    </meta>
+
+    <toc name="Table of Contents">
+        <item name="Abstract" ref="abstract.apt"/>
+        <item name="List of Figures" ref="figures.apt"/>
+        <item name="Report" ref="report.apt"/>
+        
+        <item name="Introduction" ref="index.apt"/>
+        <item name="Problems and Opportunities" ref="problem.apt"/>
+        <item name="Solution" ref="solution.apt"/>
+        <item name="Aim and Objectives" ref="objectives.apt"/>
+        <item name="Development Method" ref="development.apt"/>
+        <item name="Project Planning" ref="planning.apt"/>
+
+        <item name="Research" ref="research.apt">
+            <item name="Critique of Current Client" ref="client-critique.apt"/>
+            <item name="Literature Review" ref="literature-review.apt"/>
+            <item name="Reverse Engineering" ref="reverse-engineering.apt"/>
+            <item name="Testing Strategies" ref="testing-strategies.apt"/>
+            <item name="Software Licensing" ref="software-licensing.apt"/>
+            <item name="Conclusion" ref="research-conclusion.apt"/>
+        </item>
+
+        <item name="First Increment" ref="first-introduction.apt">
+            <item name="Requirements" ref="first-requirements.apt"/>
+            <item name="Design" ref="first-design.apt"/>
+            <item name="Implementation" ref="first-implementation.apt"/>
+            <item name="Testing" ref="first-testing.apt"/>
+            <item name="Conclusion" ref="first-conclusion.apt"/>
+        </item>
+
+        <item name="Second Increment" ref="second-introduction.apt">
+            <item name="Requirements" ref="second-requirements.apt"/>
+            <item name="Design" ref="second-design.apt"/>
+            <item name="Implementation" ref="second-implementation.apt"/>
+            <item name="Testing" ref="second-testing.apt"/>
+            <item name="Conclusion" ref="second-conclusion.apt"/>
+        </item>
+
+        <item name="Third Increment" ref="third-introduction.apt">
+            <item name="Requirements" ref="third-requirements.apt"/>
+            <item name="Design" ref="third-design.apt"/>
+            <item name="Conclusion" ref="third-conclusion.apt"/>
+        </item>
+
+        <item name="Personal Learning Experience" ref="learning.apt"/>
+        <item name="Evaluation of Tools" ref="evaluation.apt"/>
+        <item name="Project Conclusion" ref="conclusion.apt"/>
+        <item name="Bibliography" ref="bibliography.apt"/>
+        <item name="Glossary" ref="glossary.apt"/>
+
+        <item name="Appendices" ref="appendices.apt">
+            <item name="Project Proposal" ref="project-proposal.apt"/>
+            <item name="Project Initiation Document" ref="project-initiation-document.apt"/>
+            <item name="List of Cores" ref="core-list.apt"/>
+            <item name="Project Object Model" ref="pom.apt"/>
+            <item name="Queue Structure" ref="queue-structure.apt"/>
+            <item name="V7 Client API" ref="client-api.apt"/>
+        </item>
+    </toc>
+
+    <cover>
+        <coverTitle>${project.name}</coverTitle>
+        <coverSubTitle>BSc (Hons) Software Engineering</coverSubTitle>
+        <coverVersion>${project.version}</coverVersion>
+        <coverType>UFCE3B-40-3 - Computing Project</coverType>
+        <coverdate>${day}/${month}/${year}</coverdate>
+
+        <projectName>${project.name}</projectName>
+
+        <companyName>${project.developers[0].name} (08014563)</companyName>
+        <companyLogo>http://www.stanford.edu/group/pandegroup/title4.jpg</companyLogo>
+    </cover>
+</document>

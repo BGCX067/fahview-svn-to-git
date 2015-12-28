@@ -1,0 +1,36 @@
+~~~
+~~ #%L
+~~ This file is part of FAHView.
+~~ %%
+~~ Copyright (C) 2011 - 2014 Michael Thomas <mikepthomas@outlook.com>
+~~ %%
+~~ FAHView is free software: you can redistribute it and/or modify
+~~ it under the terms of the GNU General Public License as published by
+~~ the Free Software Foundation, either version 3 of the License, or
+~~ (at your option) any later version.
+~~ %
+~~ FAHView is distributed in the hope that it will be useful,
+~~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+~~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+~~ GNU General Public License for more details.
+~~ %
+~~ You should have received a copy of the GNU General Public License
+~~ along with FAHView.  If not, see <http://www.gnu.org/licenses/>.
+~~ #L%
+~~~
+                         -----------------------------
+                         Second Increment (Conclusion)
+                         -----------------------------
+                                Michael Thomas
+                         -----------------------------
+                                  04/04/2012
+
+Summary
+
+  The Jmol 3D molecule viewer has been integrated into the FAHView program
+  successfully due to the complexities of making it a modular plug it this may
+  be something that could be added at a later date.
+
+  In the next chapter we will look at the requirements and design of the next
+  generation of the Folding@home client, version 7. The implementation of this
+  next increment will be left for future work.
